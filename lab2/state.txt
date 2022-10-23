@@ -1,0 +1,10 @@
+.:
+total 4
+drw-r--r--. 2 wertyr wertyr 22 Oct 23 14:47 dir
+-rw-r-----. 1 wertyr wertyr  5 Oct 23 14:46 file
+-rw-------. 1 wertyr wertyr  0 Oct 23 14:53 file1
+-rw-rw-rw-. 1 wertyr wertyr  0 Oct 23 14:53 file2
+
+./dir:
+total 4
+-rw-r--r--. 1 wertyr wertyr 7 Oct 23 14:48 new_file
