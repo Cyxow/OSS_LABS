@@ -7,4 +7,4 @@ drw-r--r--. 2 wertyr wertyr 22 Oct 23 14:47 dir
 
 ./dir:
 total 4
--rw-r--r--. 1 wertyr wertyr 7 Oct 23 14:48 new_file
+-rw-rw-r--. 1 wertyr wertyr 7 Oct 23 14:48 new_file
