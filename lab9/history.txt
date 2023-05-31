@@ -1,0 +1,43 @@
+1  ldd /bin/login | grep pam
+2  ll /lib64/libpam*
+3  ll /lib64/security/
+4  nano /etc/pam.d/system-auth
+5  nano /etc/pam.d/su
+6  sudo nano /etc/pam.d/su
+7  su -c "hostname mephi"
+8  sudo nano /etc/pam.d/su
+9  su -c "hostname mephi"
+10  sudo nano /etc/pam.d/su
+11  sudo useradd -G wheel user1
+12  sudo passwd user1
+13  su - user1
+14  sudo nano /etc/pam.d/su
+15  su - user1
+16  sudo nano /etc/pam.d/su
+17  sudo nano /etc/pam.d/login
+18  sudo touch /etc/securetty
+19  su - user1
+20  sudo nano /etc/pam.d/login
+21  sudo nano /etc/security/pwquality.conf
+22  sudo nano /etc/pam.d/system-auth
+23  sudo passwd user1
+24  sudo nano /etc/security/pwquality.conf
+25  sudo nano /etc/pam.d/system-auth
+26  sudo nano /etc/security/limits.conf
+27  su - user1
+28  sudo nano /etc/security/limits.conf
+29  wget https://raw.githubusercontent.com/linux-pam/linux-pam/master/examples/check_user.c
+30  nano check_user.c
+31  sudo yum install pam-devel
+32  gcc check_user.c -o check_user -lpam -lpam_misc
+33  sudo nano /etc/pam.d/check
+34  ./check_user test
+35  sudo nano /etc/pam.d/check
+36  ./check_user user1
+37  nano check_user.c
+38  gcc check_user.c -o check_user -lpam -lpam_misc
+39  ./check_user test
+40  ./check_user user1
+41  su -
+42  ./check_user test
+43  history > history.txt

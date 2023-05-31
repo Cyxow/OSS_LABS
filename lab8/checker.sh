@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Made by M. Sukhov B20-515"
+
 if [ "$EUID" -ne 0 ]; then
 	echo "Запустите программу с правами администратора"
 	exit
